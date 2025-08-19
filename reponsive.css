@@ -73,13 +73,22 @@
     display: none;
   }
   .hero__media{
-  margin-top: 20px;
+  margin-top: -14px;
   }
+  .hero__content{
+          width: 80%;
+        text-align: center;
+        margin-top:-97px;
+    }
+.hero__row{
+  flex-direction: column;
+}
+  
   .hero__heading{
-    font-size:4rem !important;
+    font-size:4rem;
   }
   .hero__desc{
-    font-size: 1.5rem !important;
+    font-size: 1.5rem;
   }
   /*sẻvcie*/
   .service{
@@ -101,8 +110,12 @@
   }
   .service-list{
     padding:13px 0;
+    text-align: center;
   }
-
+.service-item{
+          width: 90%;
+        text-align: start
+}
 .work {
     margin-top: -53px;
     padding: 17px 0;
